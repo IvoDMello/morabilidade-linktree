@@ -58,9 +58,14 @@ p {
 }
 
 footer {
-    margin-top: 30px; /* Aumenta o espaçamento acima do rodapé */
+    margin-top: 30px;
     font-size: 12px;
-    color: #585a4d; /* Cor do texto do rodapé */
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.btn:focus-visible {
+    outline: 3px solid #fff;
+    outline-offset: 2px;
 }
 
 /* Estilos Responsivos */
@@ -94,5 +99,6 @@ footer {
     footer {
         margin-top: 20px;
         font-size: 10px;
+        color: rgba(255, 255, 255, 0.5);
     }
 }
