@@ -172,7 +172,8 @@ body {
     background: rgba(244, 242, 230, 0.14);
 }
 
-.btn-secondary .globe {
+.btn-secondary .globe,
+.btn-secondary .icon {
     color: var(--gold);
 }
 
